@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../image/logo.png"
 
 const Header = () => {
   return (
     <header style={styles.header}>
       <div style={styles.logoContainer}>
         <img
-          src="../../image/logo.png"
+          src={logo}
           alt="Poetry Haven Logo"
           style={styles.logo}
         />

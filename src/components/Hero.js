@@ -1,4 +1,5 @@
 import React from "react";
+import heroimg from "../image/heroimg1.png"
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
         <button>Subscribe Now</button>
       </div>
       <div className="heroimage">
-        <img src="../../image/heroimg1.png" alt="Poetry Haven" />
+        <img src={heroimg} alt="Poetry Haven" />
       </div>
     </section>
   );
